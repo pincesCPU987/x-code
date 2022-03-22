@@ -69,13 +69,7 @@ function createCode(input){
   }
   return fullCode.join(' ');
   } catch(e){
-      // true
-  console.log("Message: " + e.message)               // "null has no properties"
-  console.log("Name: " + e.name)                  // "TypeError"
-  console.log("Filename: " + e.fileName)              // "Scratchpad/1"
-  console.log("Line number: " + e.lineNumber)            // 2
-  console.log("Column number: " + e.columnNumber)          // 2
-  console.log("Stack: " + e.stack)
+    
   }
 }
 
